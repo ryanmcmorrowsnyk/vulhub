@@ -14,7 +14,7 @@ RUN set -ex \
     && sed -i 's|http://maven.jeecg.org|https://maven.jeecg.org|i' pom.xml \
     && mvn package -DskipTests
 
-FROM eclipse-temurin:17-jdk-jammy
+FROM eclipse-temurin:17.0.19_10-jdk-jammy
 
 LABEL maintainer="phithon <root@leavesongs.com>"
 
