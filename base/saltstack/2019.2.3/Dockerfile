@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.14.6
 
 RUN set -ex \
     && apt-get update \
