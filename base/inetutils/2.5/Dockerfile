@@ -1,4 +1,4 @@
-FROM debian:bullseye
+FROM debian:11.11
 
 # Download and compile vulnerable version of inetutils (2.5)
 RUN apt-get update && \
